@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>今晚的月色真美</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+<!-- <audio src="" autoplay="autoplay" loop="loop"></audio>-->
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+
+				<span class="space"/><span class="comments">婷婷，现在是2024年1月24日凌晨</span><br />	
+				<span class="space"/><span class="comments">刚刚把你哄睡着啦，听着你均匀的呼吸声，我在桌子前</span><br />
+				<span class="space"/><span class="comments">我写下了这篇独白</span><br />
+				<span class="space"/><span class="comments">别嫌弃这个网站简陋，</span><br />	
+				<span class="space"/><span class="comments">这个是我花了好多心思一行代码一行代码做出来的</span><br />
+				<span class="space"/><span class="comments">这个网址，也是你的名字</span><br />	
+	
+
+				<span class="space"/><span class="comments">emmm....这里不像是摆满鲜花蜡烛的广场</span><br />
+				<span class="space"/><span class="comments">也不是转瞬即逝的一两句表白情话</span><br />	
+				<span class="space"/><span class="comments">这里更像是一座石碑，永远的立在互联网历史上一个不为人知的角落里</span><br />	
+				<span class="space"/><span class="comments">也希望，我们之间可以像这个网站一样。历久弥新</span><br />	
+				<span class="space"/><span class="comments">很奇怪不是吗，人的一生之中</span><br />	
+				<span class="space"/><span class="comments">会遇到很多很多很多的人</span><br />
+				<span class="space"/><span class="comments">但是悲伤又幸运的事情是</span><br />
+				<span class="space"/><span class="comments">大部分的人都无法走进自己生命里哪怕一点</span><br />
+				<span class="space"/><span class="comments"> </span><br />	
+			
+
+
+				<span class="space"/><span class="comments">emmm，怎么说呢其实你的存在</span><br />		
+				<span class="space"/><span class="comments">让我感到到像是寒冬里的一抹阳光</span><br />	
+				<span class="space"/><span class="comments">让人觉得特别温暖</span><br />
+				<span class="space"/><span class="comments">波澜不惊，不温不火的状态，说实话让我觉得很舒服 </span><br />	
+				<span class="space"/><span class="comments">我可以毫无保留的展现出自己真实的一面</span><br />	
+				<span class="space"/><span class="comments">像甘冽的清泉水，注入湖泊 </span><br />	
+				<span class="space"/><span class="comments">清澈见底</span><br />	
+				<span class="space"/><span class="comments"> </span><br />	
+				<span class="space"/><span class="comments">其实真正发现自己喜欢你是在我有一瞬间突然发现</span><br />
+				<span class="space"/><span class="comments">是今天，我们吵了两次架</span><br />
+				<span class="space"/><span class="comments">我其实突然发现我比想象中的要更在乎你</span><br />
+				<span class="space"/><span class="comments">我会因为你对我的态度变化，产生情绪的变化</span><br />
+				<span class="space"/><span class="comments">实话说，自己的情绪可以被别人影响是一件很可怕的时期</span><br />
+				<span class="space"/><span class="comments">但好像，如果这个人是你，就又没什么可怕的了</span><br />
+				
+
+				<span class="space"/><span class="comments">人啊，见天地，见众生容易，见自己难</span><br />	
+				<span class="space"/><span class="comments">我其实一直都很想把内心所有的东西都交给一个人去保管</span><br />	
+				<span class="space"/><span class="comments">就是那种，认认真真的好好在一起</span><br />
+				<span class="space"/><span class="comments">我想这个人就是你</span><br />
+				<span class="space"/><span class="comments">不管怎么样，不管过程，结局如何</span><br />	
+				<span class="space"/><span class="comments">我都想把这些告诉你，也想告诉你，我想要你</span><br />
+				<span class="space"/><span class="comments">我想和你在一起~</span><br />
+				<span class="space"/><span class="comments"> </span><br />
+				<span class="space"/><span class="comments"> </span><br />
+				<span class="space"/><span class="comments"> </span><br />
+
+				
+
+				
+
+				
+
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						I have fallen in love with you for
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br/>
+						<div class="signature">-Follen</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2024,0,24);
+		together.setHours(23);
+		together.setMinutes(33);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 5000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>
